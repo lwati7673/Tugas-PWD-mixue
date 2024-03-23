@@ -1,0 +1,171 @@
+/* Reset default margin and padding */
+.header {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin: auto;
+}
+.header .h3 .p{
+    align-content: center;
+    
+}
+
+.logo img {
+    margin-right: 30px; /* Add margin between logo and text */
+}
+
+/* Navigation Bar */
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topnav a {
+    color: #FFFFFF;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #DDDDDD;
+    color: black;
+}
+
+/* Body - Kolom Foto Produk */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-column {
+  
+    padding: 10px;
+    margin: 10px 0px; /* Mengatur margin atas dan bawah 10px, sementara margin kiri dan kanan 5px */
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.product-img {
+
+    width:100%; 
+    max-width: 50 80px; /* Atur lebar maksimum foto */
+    height: 20 20; /* Biarkan tinggi otomatis menyesuaikan proporsi */
+    border-spacing:none;
+}
+/* Body - Kolom Foto Produk */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0; /* Tambahkan aturan ini untuk menghapus margin */
+}
+
+.product-column {
+    width: 5 10;
+    padding: 10px;
+    margin: none /* Aturan margin ini menyebabkan jarak yang lebih jauh */
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#content {
+    margin-top: 10px;
+}
+
+#content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content ul li {
+    margin-bottom: 5px;
+}
+.center-button {
+    text-align: center;
+}
+.red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content-container {
+    display: none;
+    border: 2px solid red;
+    padding: 10px;
+    margin-top: 10px;
+}
+.content-container.active {
+    display: block;
+}
+
+.center-button {
+    text-align: center;
+}
+.red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content-container h3{
+    text-align: center;
+    color: #FF0000;
+}
+/* Footer */
+.footer {
+    background-color: #FFFFFF;
+    color: #FF0000;
+    text-align: center;
+    padding: 70px;
+    margin-top: 20px;
+}
+
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    margin-right: 10px;
+}
+
+/* Copyright */
+.copyright {
+    font-size: 12px;
+}
